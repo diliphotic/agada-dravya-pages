@@ -4,158 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Snuhi – Irritant Poison | Agada Tantra</title>
+  <link rel="stylesheet" href="css/agada-universal.css">
 
-  <style>
-    body{
-      margin:0;
-      padding-top:140px;
-      font-family: Cambria, Georgia, serif;
-      background:#f7f4ef;
-      color:#1f1f1f;
-    }
-
-    /* ================= HEADER (FIXED CONTENT) ================= */
-    .header{
-      background:#740808;
-      position:fixed;
-      top:0;
-      z-index:1000;
-      padding:6px 10px;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-    }
-    .institution-name{ color:#fff;font-size:10px;font-weight:bold; }
-    .header-top{ width:100%;display:flex;align-items:center;justify-content:space-between;margin-top:4px; }
-    .header img{ height:65px;width:65px;border-radius:50%;border:2px solid #fff; }
-    .college-name{ color:#fff;font-size:16px;font-weight:bold;text-align:center;flex:1;margin:0 10px; }
-    .dist-tq-container{ display:flex;justify-content:space-between;width:80%;margin-top:4px; }
-    .tq-name,.dist-name{ color:#fff;font-size:12px;font-weight:bold; }
-
-    /* ================= LAYOUT ================= */
-    .container{ max-width:1000px;margin:auto;padding:20px; }
-
-    .drug-title{
-      text-align:center;
-      font-size:42px;
-      font-weight:800;
-      color:#7a0c0c;
-      margin-bottom:5px;
-      letter-spacing:1px;
-    }
-
-    .drug-subtitle{
-      text-align:center;
-      font-size:20px;
-      color:#2f4f4f;
-      margin-bottom:25px;
-    }
-
-    /* ================= BASIC CARD ================= */
-    .basic-card{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:20px;
-      background:#fff;
-      padding:22px;
-      border-radius:14px;
-      box-shadow:0 8px 24px rgba(0,0,0,0.08);
-      margin-bottom:40px;
-    }
-
-    .basic-card div{
-      background:#f3ebe3;
-      padding:14px;
-      border-radius:10px;
-      font-weight:600;
-    }
-
-    /* ================= SECTIONS ================= */
-    .section{
-      margin-bottom:45px;
-    }
-
-    .section h2{
-      font-size:22px;
-      color:#7a0c0c;
-      margin-bottom:12px;
-      border-bottom:2px solid #d2b48c;
-      padding-bottom:6px;
-    }
-
-    .box{
-      background:#ffffff;
-      width:100%;
-      padding:20px;
-      border-radius:14px;
-      box-shadow:0 6px 18px rgba(0,0,0,0.07);
-    }
-
-    ul{ margin-left:20px; }
-    li{ margin-bottom:8px; }
-
-    /* ================= IMAGES ================= */
-    .image-row{
-      display:grid;
-      grid-template-columns:1fr;
-      gap:25px;
-      margin-top:20px;
-    }
-
-    .image-box{
-      height:auto;
-      border:3px dashed #9a7b4f;
-      border-radius:14px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-weight:bold;
-      color:#6b5a44;
-      background:#fbf8f3;
-    }
-
-.image-box img{
-  width:100%;
-  height:auto;
-  display:block;
-  border-radius:10px;
-  object-fit:contain;
-}
-    /* ================= FLOW ================= */
-    .flow{
-      background:#fff7ee;
-      border-left:6px solid #8b4513;
-      padding:18px;
-      border-radius:10px;
-      font-weight:600;
-    }
-
-    /* ================= TABLE ================= */
-    table{
-      width:100%;
-      border-collapse:collapse;
-      margin-top:10px;
-    }
-
-    table th, table td{
-      border:1px solid #999;
-      padding:10px;
-      text-align:left;
-    }
-
-    table th{
-      background:#f1dfc8;
-      font-weight:700;
-    }
-
-    /* ================= FOOTER ================= */
-    .footer{
-      margin-top:50px;
-      text-align:center;
-      font-size:11px;
-      color:#555;
-    }
-  </style>
 </head>
 
 <body>
@@ -270,55 +120,81 @@ tissues.</p>
   <!-- SOURCE OF EXPOSURE -->
   <div class="section">
     <h2>Source of Exposure (Viṣa Saṃsparśa Mārgāḥ)</h2>
-    <div class="box">
-      <ul>
-        <li><strong>Snuhi Kṣhīra:</strong><br> Contemporary science: Latex contains diterpenoid esters (phorbol esters)<br>
-        Routes of exposure:<br>
-             Skin contact → severe contact dermatitis, blistering<br>
+    
+    <div class="accordion">
+    <input type="checkbox" id="s1">
+    <label for="s1">Snuhi Kṣhīra</label>
+    <div class="accordion-content">
+            Contemporary science: Latex contains diterpenoid esters (phorbol esters)<br>
+            Routes of exposure:<br>
+            Skin contact → severe contact dermatitis, blistering<br>
             Eye exposure → chemical conjunctivitis, corneal injury<br>
             Oral ingestion → GI irritation, vomiting, diarrhea.<br>
-        </li>
-        <li><strong>Tvak Sparśa:</strong> <br>Irritant and vesicant action
+    </div>
+  </div>
+
+    <div class="accordion">
+    <input type="checkbox" id="s2">
+    <label for="s2">Tvak Sparśa</label>
+    <div class="accordion-content">
+        Irritant and vesicant action
         Leads to : <br>    eczema, erythema, ulceration, 
         Occupational exposure in gardeners, plant handlers
-        </li>
-        <li><strong>Accidental Oral Ingestion:</strong><br>Ingestion of latex or plant parts causes:<br>
+    </div>
+  </div>
+
+    <div class="accordion">
+    <input type="checkbox" id="s3">
+    <label for="s3">Accidental Oral Ingestion</label>
+    <div class="accordion-content">
+        Ingestion of latex or plant parts causes:<br>
             Gastrointestinal toxicity,
         Nausea, abdominal cramps, dehydration,
         More severe in children
-        </li>
-        <li><strong>Netra Saṃsparśa:</strong><br>Corrosive injury to eye can cause:<br>
-            Conjunctivitis, 
-        Keratitis 
-        </li>
-      </ul>
+    </div>
+  </div>
+
+    <div class="accordion">
+    <input type="checkbox" id="s4">
+    <label for="s4">Netra Saṃsparśa</label>
+    <div class="accordion-content">
+        Irritant and vesicant action
+        Leads to : <br>    eczema, erythema, ulceration, 
+        Occupational exposure in gardeners, plant handlers
     </div>
   </div>
 
   <!-- SIGNS -->
   <div class="section">
     <h2>Signs & Symptoms (Lakṣaṇa)</h2>
-    <div class="box">
-      <strong>External Contact:</strong><br>
-      1) Skin: Burning sensation<br>
+    <div class="accordion">
+    <input type="checkbox" id="s5">
+    <label for="s5">External Contact</label>
+    <div class="accordion-content">
+            1) Skin: Burning sensation<br>
                Vesication (blister formation)<br>
                Contact dermatitis.<br>
                Severe inflammation Ingestion can cause irritation and even death<br>
                <br>
-      2) Eyes: Excruciating pain and burning<br>
+            2) Eyes: Excruciating pain and burning<br>
                Redness and irritation<br>
                Excessive lacrimation (tearing)<br>
                Lid edema (swelling) and conjunctival congestion<br>
                Blurred vision, which can potentially lead to temporary or permanent blindness<br>
-<br>
-      <strong>Internal Ingestion:</strong><br>
+      </div>
+    </div>
+
+    <div class="accordion">
+    <input type="checkbox" id="s6">
+    <label for="s6">Internal Ingestion</label>
+    <div class="accordion-content">
       • Burning sensation in the throat and abdomen severe vomiting<br>
       •	Diarrhea (which may be blood-mixed in severe cases) Abdominal discomfort/pain Convulsions<br>
       •	Coma in severe cases of poisoning<br>
       •	आध्मान, मूर्च्छा , प्रलाप, उदर दाह <br>
-
+      </div>
     </div>
-  </div>
+
 
   <!-- DETOX -->
   <div class="section">
