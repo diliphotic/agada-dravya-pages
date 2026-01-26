@@ -1,6 +1,6 @@
 <style>
     body{
-      margin:0;
+      margin:40;
       padding-top:140px;
       font-family: Cambria, Georgia, serif;
       background:#f7f4ef;
@@ -27,7 +27,7 @@
     .tq-name,.dist-name{ color:#fff;font-size:12px;font-weight:bold; }
 
     /* ================= LAYOUT ================= */
-    .container{ max-width:1000px;margin:auto;padding:20px; padding-top:100px}
+    .container{ max-width:1000px;margin:auto;padding:20px;}
 
     .drug-title{
       text-align:center;
